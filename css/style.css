@@ -5,7 +5,6 @@
   --secondary-color: #868686;
   --tertiary-color: #eff3f4;
   --secondary-bg-color: #5c1011;
-}
  
 * {
   font-family: "Lato";
@@ -17,7 +16,7 @@
 a {
   text-decoration: none;
 }
-
+ 
 img {
   width: 100%;
 }
@@ -96,7 +95,7 @@ i {
   position: absolute;
   left: 20px;
   top: 40px;
-  z-index: 1; 
+  z-index: 1;
 }
  
 .dots {
@@ -306,7 +305,7 @@ i {
   position: relative;
   z-index: 2; /* Posição */
 }
-
+ 
 #team span {
   color: var(--main-color);
 }
@@ -318,7 +317,7 @@ i {
   margin-left: -50px;
   top: -25px;
 }
-
+ 
 .employees {
   display: flex;
 }
@@ -495,7 +494,7 @@ i {
   padding: 1rem;
   display: none;
 }
-
+ 
 #close-menu {
   position: absolute;
   top: 0;
@@ -513,13 +512,13 @@ i {
   flex-direction: column;
   padding: 4rem 2rem;
   transition: 0.4s;
-  z-index: 1000; /* 1000 é o padrão do bootstrap */ 
+  z-index: 1000; /* 1000 é o padrão do bootstrap */
 }
  
 #mobile-navbar.menu-active{
   left: 0;
 }
-
+ 
 #mobile-navbar a{
   color: var(--primary-text-color);
   font-size: 2rem;
@@ -568,10 +567,12 @@ i {
   #other-services {
     flex-wrap: wrap;
   }
-
+ 
   /* Sobre Nós */
-  #about {}
-
+  #about {
+ 
+  }
+ 
   #about,
   #about-data {
     flex: 1 1 100%;
@@ -588,16 +589,16 @@ i {
     border: none;
     border-bottom: 1px solid var(--secondary-text-color);
   }
-
+ 
   /* Depoimentos */
   .text-container {
     text-align: center;
     padding: 1rem;
   }
-
+ 
   /* Colaboradores */
   #team {
-    position: relative;
+    position: relative; /* Posição */
     margin-bottom: 2rem;
   }
   #team h2 {
@@ -606,7 +607,7 @@ i {
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
-    z-index: 2; Posição
+    z-index: 2; Posição /* Posição */
   }
   #team h2 span {
     color: var(--main-color);
@@ -614,7 +615,7 @@ i {
   .employees {
     flex-wrap: wrap;
   }
-
+ 
   /* Contato */
   #contact {
     padding-bottom: 0;
@@ -629,5 +630,3 @@ i {
     align-self: auto;
   }
 }
-
-/* Feito por Matheus Senna */
